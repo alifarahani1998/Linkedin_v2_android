@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!--            <androidx.appcompat.widget.Toolbar-->
+            <!--                android:id="@+id/toolbar1"-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="?attr/actionBarSize"-->
+            <!--                android:background="@color/colorPrimary"-->
+            <!--                android:elevation="4dp"-->
+            <!--                android:popupTheme="@style/ThemeOverlay.AppCompat.Light"-->
+            <!--                android:theme="@style/Base.ThemeOverlay.AppCompat.Dark.ActionBar">-->
+
+
+            <!--                <com.mancj.materialsearchbar.MaterialSearchBar-->
+            <!--                    android:layout_width="match_parent"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:id="@+id/search_view"-->
+            <!--                    app:mt_placeholder="جست و جو"-->
+            <!--                    android:layout_marginTop="10dp"-->
+            <!--                    android:layout_marginStart="50dp"-->
+            <!--                    android:layout_marginBottom="10dp"-->
+            <!--                    app:mt_searchBarColor="@color/white"-->
+            <!--                    app:mt_placeholderColor="@color/colorPrimary"-->
+            <!--                    app:mt_searchIconUseTint="true"-->
+            <!--                    app:mt_searchIconTint="@color/colorPrimary"-->
+            <!--                    app:mt_menuIconDrawable="@drawable/ic_dehaze_black_24dp"-->
+            <!--                    app:mt_menuIconUseTint="true"-->
+            <!--                    app:mt_menuIconTint="@color/colorPrimary"-->
+            <!--                    app:mt_hint="فروشگاه، برند، محصول یا ..."-->
+            <!--                    app:mt_hintColor="@color/colorPrimary"-->
+            <!--                    app:mt_clearIconUseTint="true"-->
+            <!--                    app:mt_clearIconTint="@color/colorPrimary"-->
+            <!--                    app:mt_textCursorTint="@color/colorPrimary"-->
+            <!--                    app:mt_textColor="@color/colorPrimary"-->
+            <!--                    app:mt_backIconUseTint="true"-->
+            <!--                    app:mt_backIconTint="@color/colorPrimary"-->
+            <!--                    />-->
+
+
+            <!--            </androidx.appcompat.widget.Toolbar>-->
+
+
+            <FrameLayout
+                android:id="@+id/fragment_container"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@id/bottom_navigation"/>
+
+
+        </LinearLayout>
+
+
+
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="?android:attr/windowBackground"
+        app:menu="@menu/bottom_nav"
+        app:labelVisibilityMode="unlabeled"/>
+
+
+
+
+</RelativeLayout>

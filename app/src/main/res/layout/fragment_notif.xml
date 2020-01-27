@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NotifFragment">
+
+
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+
+
+
+           <TextView
+               android:id="@+id/notif"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Recent Notifications"
+               android:textColor="@color/colorPrimary"
+               android:textSize="20sp"
+               android:textStyle="bold"
+               android:layout_marginTop="10dp"
+               android:layout_marginStart="10dp"/>
+
+
+           <ImageView
+               android:id="@+id/imageimage"
+               android:layout_width="50dp"
+               android:layout_height="50dp"
+               android:src="@drawable/norma"
+               android:layout_below="@+id/notif"
+               android:layout_marginTop="20dp"
+               android:layout_marginStart="20dp"/>
+
+           <TextView
+               android:id="@+id/ty"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textSize="15sp"
+               android:textStyle="bold"
+               android:text="Jeret Taylor - Dynabike"
+               android:layout_below="@+id/notif"
+               android:layout_marginTop="25dp"
+               android:layout_toEndOf="@+id/imageimage"
+               android:layout_marginStart="10dp"/>
+
+           <TextView
+               android:id="@+id/sen"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_below="@+id/ty"
+               android:text="Accepted your Request to connect."
+               android:layout_toEndOf="@+id/imageimage"
+               android:layout_marginStart="10dp"/>
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_toEndOf="@+id/ty"
+               android:layout_below="@+id/notif"
+               android:layout_marginTop="25dp"
+               android:text="2-hours ago"
+               android:layout_alignParentEnd="true"
+               android:gravity="right"
+               android:layout_marginEnd="10dp"/>
+
+
+           <ImageView
+               android:id="@+id/sensen"
+               android:layout_below="@+id/sen"
+               android:layout_width="100dp"
+               android:layout_height="30dp"
+               android:layout_marginTop="10dp"
+               android:src="@drawable/hey"
+               android:textAllCaps="false"
+               android:layout_toEndOf="@+id/imageimage"/>
+
+
+
+           <TextView
+               android:id="@+id/login"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_below="@+id/sensen"
+               android:layout_marginTop="20dp"
+               android:layout_marginStart="20dp"
+               android:textStyle="bold"
+               android:textSize="15sp"
+               android:text="Login Failed"/>
+
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_toEndOf="@+id/login"
+               android:layout_below="@+id/sensen"
+               android:layout_marginTop="20dp"
+               android:text=" - an unsuccessful login try by windows 10 ..."/>
+
+
+
+
+           <TextView
+               android:id="@+id/loginn"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_below="@+id/login"
+               android:layout_marginStart="20dp"
+               android:text="for more information click here"
+               android:textColor="#1F84BC"/>
+
+
+
+
+
+
+
+
+
+
+           <ImageView
+               android:id="@+id/imageimageimage"
+               android:layout_width="50dp"
+               android:layout_height="50dp"
+               android:src="@drawable/norma"
+               android:layout_below="@+id/loginn"
+               android:layout_marginTop="20dp"
+               android:layout_marginStart="20dp"/>
+
+           <TextView
+               android:id="@+id/tyy"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textSize="15sp"
+               android:textStyle="bold"
+               android:text="Jeret Taylor - Dynabike"
+               android:layout_below="@+id/loginn"
+               android:layout_marginTop="25dp"
+               android:layout_toEndOf="@+id/imageimageimage"
+               android:layout_marginStart="10dp"/>
+
+           <TextView
+               android:id="@+id/senn"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_below="@+id/tyy"
+               android:text="Viewed your profile."
+               android:layout_toEndOf="@+id/imageimageimage"
+               android:layout_marginStart="10dp"/>
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_toEndOf="@+id/tyy"
+               android:layout_below="@+id/loginn"
+               android:layout_marginTop="25dp"
+               android:text="yesterday"
+               android:layout_alignParentEnd="true"
+               android:gravity="right"
+               android:layout_marginEnd="10dp"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+           <TextView
+               android:id="@+id/notiff"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Notifications for last month"
+               android:textColor="@color/colorPrimary"
+               android:textSize="20sp"
+               android:textStyle="bold"
+               android:layout_marginTop="40dp"
+               android:layout_below="@+id/senn"
+               android:layout_marginStart="10dp"/>
+
+
+           <ImageView
+               android:id="@+id/aa"
+               android:layout_width="50dp"
+               android:layout_height="50dp"
+               android:src="@drawable/tyrone"
+               android:layout_below="@+id/notiff"
+               android:layout_marginTop="20dp"
+               android:layout_marginStart="20dp"/>
+
+           <TextView
+               android:id="@+id/yy"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textSize="15sp"
+               android:textStyle="bold"
+               android:text="Norma Ortiz - Drip Join"
+               android:layout_below="@+id/notiff"
+               android:layout_marginTop="25dp"
+               android:layout_toEndOf="@+id/aa"
+               android:layout_marginStart="10dp"/>
+
+           <TextView
+               android:id="@+id/ss"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_below="@+id/yy"
+               android:text="Accepted your Request to connect."
+               android:layout_toEndOf="@+id/aa"
+               android:layout_marginStart="10dp"/>
+
+
+
+
+
+
+
+
+
+
+           <ImageView
+               android:id="@+id/aaa"
+               android:layout_width="50dp"
+               android:layout_height="50dp"
+               android:src="@drawable/wilmariz"
+               android:layout_below="@+id/aa"
+               android:layout_marginTop="20dp"
+               android:layout_marginStart="20dp"/>
+
+           <TextView
+               android:id="@+id/yyy"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textSize="15sp"
+               android:textStyle="bold"
+               android:text="Norma Ortiz - Drip Join"
+               android:layout_below="@+id/aa"
+               android:layout_marginTop="25dp"
+               android:layout_toEndOf="@+id/aa"
+               android:layout_marginStart="10dp"/>
+
+           <TextView
+               android:id="@+id/sss"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_below="@+id/yyy"
+               android:text="Martin Free I truly believe that renting\ngym clothes without washing can lead\nto some health problems… just my two\ncents."
+               android:layout_toEndOf="@+id/aa"
+               android:layout_marginStart="10dp"/>
+
+
+
+
+
+
+           <ImageView
+               android:id="@+id/aaaa"
+               android:layout_width="50dp"
+               android:layout_height="50dp"
+               android:src="@drawable/wilmariz"
+               android:layout_below="@+id/sss"
+               android:layout_marginTop="20dp"
+               android:layout_marginStart="20dp"/>
+
+           <TextView
+               android:id="@+id/yyyy"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textSize="15sp"
+               android:textStyle="bold"
+               android:text="Norma Ortiz - Drip Join"
+               android:layout_below="@+id/sss"
+               android:layout_marginTop="25dp"
+               android:layout_toEndOf="@+id/aaaa"
+               android:layout_marginStart="10dp"/>
+
+           <TextView
+               android:id="@+id/ssss"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_below="@+id/yyyy"
+               android:text="Martin Free I truly believe that renting\ngym clothes without washing can lead\nto some health problems… just my two\ncents."
+               android:layout_toEndOf="@+id/aa"
+               android:layout_marginStart="10dp"/>
+
+
+
+
+
+
+       </RelativeLayout>
+
+
+
+   </ScrollView>
+</RelativeLayout>

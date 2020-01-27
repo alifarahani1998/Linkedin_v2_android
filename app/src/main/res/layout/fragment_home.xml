@@ -1,14 +1,123 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".HomeFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
 
-</FrameLayout>
+    <ImageView
+        android:id="@+id/id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/tyty"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Search:"
+        android:layout_toStartOf="@+id/id"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="10dp"/>
+
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/ds"
+        android:layout_below="@+id/id"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        app:cardBackgroundColor="#D7CBE1">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:id="@+id/idid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="Suggested"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"/>
+
+
+            <ImageView
+                android:id="@+id/jfjf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/rere"
+                android:layout_below="@+id/idid"
+                android:layout_marginTop="10dp"
+                android:layout_centerInParent="true"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toStartOf="@+id/jfjf"
+                android:layout_below="@+id/idid"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="20dp"
+                android:src="@drawable/uiui"/>
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/jfjf"
+                android:layout_below="@+id/idid"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="20dp"
+                android:src="@drawable/qqq"/>
+
+
+        </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/dss"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="#000000"
+        android:layout_below="@+id/ds"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Brandon Smith"
+        android:layout_below="@+id/ds"
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="20dp"
+        android:layout_toEndOf="@+id/dss"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1min ago"
+        android:layout_below="@+id/ds"
+        android:layout_marginTop="25dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="20dp"
+        android:gravity="right"
+        android:layout_marginStart="20dp"
+        android:layout_toEndOf="@+id/dss"/>
+
+
+
+</RelativeLayout>

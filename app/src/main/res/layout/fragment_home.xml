@@ -53,7 +53,7 @@
                 android:id="@+id/jfjf"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/rere"
+                android:src="@drawable/uiui"
                 android:layout_below="@+id/idid"
                 android:layout_marginTop="10dp"
                 android:layout_centerInParent="true"/>
@@ -65,7 +65,7 @@
                 android:layout_below="@+id/idid"
                 android:layout_marginTop="10dp"
                 android:layout_marginEnd="20dp"
-                android:src="@drawable/uiui"/>
+                android:src="@drawable/rere"/>
 
 
             <ImageView
@@ -118,6 +118,95 @@
         android:layout_marginStart="20dp"
         android:layout_toEndOf="@+id/dss"/>
 
+
+    <ImageView
+        android:id="@+id/jjj"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/vbvb"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/dss"/>
+
+    <ImageView
+        android:id="@+id/fff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/jjj"
+        android:src="@drawable/qwe"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="10dp"/>
+
+
+
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/dsss"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="#000000"
+        android:layout_below="@+id/fff"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"/>
+
+
+    <TextView
+        android:id="@+id/ll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Betty Puck"
+        android:layout_below="@+id/fff"
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="20dp"
+        android:layout_toEndOf="@+id/dsss"/>
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/rtrt"
+        android:layout_toEndOf="@+id/ll"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="20dp"
+        android:layout_below="@id/fff"/>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="15min ago"
+        android:layout_below="@+id/fff"
+        android:layout_marginTop="25dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="20dp"
+        android:gravity="right"
+        android:layout_marginStart="20dp"
+        android:layout_toEndOf="@+id/dsss"/>
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/iuiu"
+        android:layout_below="@+id/dsss"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"/>
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/hhhh"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="20dp"
+        android:layout_below="@+id/dsss"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"/>
 
 
 </RelativeLayout>
